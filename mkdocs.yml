@@ -1,0 +1,13 @@
+site_name: schemas.science
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.path
+
+nav:
+    - Home: index.md
+    - About: about.md
