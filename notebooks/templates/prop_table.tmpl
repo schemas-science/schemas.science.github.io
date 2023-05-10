@@ -1,9 +1,8 @@
-{% extends "index.tmpl" %}
+{% extends "single_profile.tmpl" %}
 {% block content %}
-
 | Name              | Description                          |
 | :---------------- | :----------------------------------- |
-{% for p in profiles -%}
+{% for p in properties -%}
 | {{p["name"]}} | {{p["description"]}}  |
 {% endfor %}
 
