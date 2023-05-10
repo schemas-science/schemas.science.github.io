@@ -1,0 +1,10 @@
+{% extends "page.tmpl" %}
+{% block content %}
+
+| Name              | Description                          |
+| :---------------- | :----------------------------------- |
+{% for p in profiles -%}
+| {{p["name"]}} | {{p["description"]}}  |
+{% endfor %}
+
+{% endblock %}
