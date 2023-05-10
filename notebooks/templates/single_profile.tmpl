@@ -5,29 +5,29 @@
 
 ## Minimum properties
 
-| Name              | Description                          |
-| :---------------- | :----------------------------------- |
+| Name              | Description                          | Cardinality |
+| :---------------- | :----------------------------------- | :---------- |
 {% for p in all_properties -%}
 {% if p["name"] in required -%}
-| {{p["name"]}} | {{p["description"]}}  |
+| [{{p["name"]}}]({{p["url"]}}) | {{p["description"]}}  | {{p["card"]}} |
 {% endif -%}
 {% endfor %}
 
 ## Recommended properties
 
-| Name              | Description                          |
-| :---------------- | :----------------------------------- |
+| Name              | Description                          | Cardinality |
+| :---------------- | :----------------------------------- | :---------- |
 {% for p in all_properties -%}
 {% if p["name"] in recommended -%}
-| {{p["name"]}} | {{p["description"]}}  |
+| [{{p["name"]}}]({{p["url"]}}) | {{p["description"]}}  | {{p["card"]}} |
 {% endif -%}
 {% endfor %}
 
 ## Optional properties
-| Name              | Description                          |
-| :---------------- | :----------------------------------- |
+| Name              | Description                          | Cardinality |
+| :---------------- | :----------------------------------- | :---------- |
 {% for p in all_properties -%}
 {% if p["name"] in optional -%}
-| {{p["name"]}} | {{p["description"]}}  |
+| [{{p["name"]}}]({{p["url"]}}) | {{p["description"]}}  | {{p["card"]}} |
 {% endif -%}
 {% endfor %}
