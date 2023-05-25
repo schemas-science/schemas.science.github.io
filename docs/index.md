@@ -1,4 +1,4 @@
-# Welcome to schemas.science
+# Welcome to :schemas-schemas-science_logo_black: schemas.science
 
 ## What is schemas.science?
 

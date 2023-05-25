@@ -2,12 +2,23 @@ site_name: schemas.science
 
 theme:
   name: material
+  custom_dir: overrides
   features:
     - navigation.instant
     - navigation.tracking
     - navigation.tabs
     - navigation.path
+  icon:
+    logo: schemas/schemas-science_logo_white
 
 nav:
     - Home: index.md
     - About: about.md
+
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
