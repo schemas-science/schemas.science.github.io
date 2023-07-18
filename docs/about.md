@@ -11,4 +11,4 @@ The website content is maintained on GitHub [schemas-science](https://github.com
 
 ## Code of conduct
 
-We aim to adopt the [FORCE11 Code of Conduct](https://www.force11.org/code-conduct) after establishing and the governance and a steering council.
+We aim to adopt the [FORCE11 Code of Conduct](https://www.force11.org/code-conduct) after establishing a governance policy and steering council.
